@@ -2,7 +2,7 @@
   "name": "social_impact_investments",
   "version": "0.0.1",
   "description": "Web app for Social Impact Investments. An NGO focused on driving economic growth, in rural and sub-urban african communities. ",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,8 +22,5 @@
     "url": "https://github.com/sekaycee/social_impact_investments/issues"
   },
   "homepage": "https://github.com/sekaycee/social_impact_investments#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "pug": "^3.0.2"
-  }
+  "dependencies": {}
 }
