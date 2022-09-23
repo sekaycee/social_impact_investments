@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Footer from './footer/footer.js'
-import Header from './header/header.js'
+import Footer from './footer/footer'
+import Header from './header/header'
 
 export default function Layout({ children }) {
     return (
