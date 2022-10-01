@@ -13,7 +13,7 @@
     color: #f4f4f4;
  }
  
- .footer-widgets {
+ .footer_widgets {
     padding: 90px 0 30px;
  }
  
@@ -27,12 +27,12 @@
     color: #788487;
  }
  
- .widget .widget-title {
+ .widget .widget_title {
     margin-bottom: 24px;
     color: #f7f7f7;
  }
  
- .widget .widget-title > h6 {
+ .widget .widget_title > h6 {
     text-transform: uppercase;
     letter-spacing: 2.6px;
     font-weight: 700;
@@ -62,16 +62,16 @@
  }
  
  /* Footer bar */
- .footer-widgets + .footer-bar {
+ .footer_widgets + .footer_bar {
     border-top: 1px solid #2c2c2c;
  }
  
- .footer-bar {
+ .footer_bar {
     text-align: center;
     font-size: .75rem;
     padding: 22px 0;
  }
  
- .footer-bar p {
+ .footer_bar p {
     margin-bottom: 0;
  }

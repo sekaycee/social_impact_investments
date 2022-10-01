@@ -7,33 +7,33 @@
     z-index: 1040;
  }
  
- .header, .header.header-tp {
+ .header, .header.header_tp {
     background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
  }
  
- .header, .header.header-sm {
+ .header, .header.header_sm {
     background-color: #fff;
     border-bottom: 1px solid rgba(240, 240, 240, .8);
  }
  
- .header.header-sm {
+ .header.header_sm {
     height: 60px;
  }
  
- .header .container-fluid {
+ .header .container_fluid {
     position: relative;
     height: 100%;
  }
  
- .inner-header {
+ .inner_header {
     position: relative;
     height: 100%;
     float: left;
     z-index: 1;
  }
  
- .inner-header::before {
+ .inner_header::before {
     display: inline-block;
     vertical-align: middle;
     height: 100%;
@@ -42,15 +42,15 @@
  }
  
  /* Header Inner Brand */
- .header.header-tp .inner-brand {
+ .header.header_tp .inner_brand {
     color: #fff;
  }
  
- .header .innerbrand, .header.header-sm .inner-brand {
+ .header .inner_brand, .header.header_sm .inner_brand {
     color: #222;
  }
  
- .inner-brand {
+ .inner_brand {
     display: inline-block;
     vertical-align: middle;
     text-transform: none;
@@ -60,7 +60,7 @@
  }
  
  /* Header Inner Navigation */
- .inner-navigation {
+ .inner_navigation {
     position: absolute;
     height: 100%;
     float: left;
@@ -69,19 +69,19 @@
     text-align: center;
  }
  
- .inner-nav, .extra-nav {
+ .inner_nav, .extra_nav {
     vertical-align: middle;
     display: inline-block;
     height: 100%;
  }
  
- .inner-nav > ul {
+ .inner_nav > ul {
     height: 100%;
     padding: 0;
     margin: 0;
  }
  
- .inner-nav > ul > li {
+ .inner_nav > ul > li {
     position: relative;
     display: block;
     height: 100%;
@@ -90,27 +90,27 @@
     margin: 0;
  }
  
- .inner-nav > ul > li > a > .menu-item-span,
- .extra-nav > ul > li > a > .menu-item-span {
+ .inner_nav > ul > li > a > .menu_item_span,
+ .extra_nav > ul > li > a > .menu_item_span {
     transform: translateY(-50%);
     position: relative;
     display: block;
     top: 50%;
  }
  
- .header.header-tp .extra-nav > ul > li > a,
- .header.header-tp .inner-nav > ul > li > a {
+ .header.header_tp .extra_nav > ul > li > a,
+ .header.header_tp .inner_nav > ul > li > a {
     color: #fff;
  }
  
- .header .extra-nav > ul > li > a, 
- .header .inner-nav > ul > li > a, 
- .header.header-sm .extra-nav > ul > li > a, 
- .header.header-sm .inner-nav > ul > li > a {
+ .header .extra_nav > ul > li > a, 
+ .header .inner_nav > ul > li > a, 
+ .header.header_sm .extra_nav > ul > li > a, 
+ .header.header_sm .inner_nav > ul > li > a {
     color: #222;
  }
  
- .inner-nav > ul > li > a {
+ .inner_nav > ul > li > a {
     position: relative;
     display: block;
     height: 100%;
@@ -122,7 +122,7 @@
     font-size: .75rem;
  }
  
- .header.header-tp .inner-nav > ul > li > a::after {
+ .header.header_tp .inner_nav > ul > li > a::after {
     position: absolute;
     background-color: rgba(255, 255, 255, .8);
     display: block;
@@ -135,71 +135,71 @@
     transition: all .3s ease-out;
  }
  
- .header.header-tp .inner-nav > ul > li > a:hover::after {
+ .header.header_tp .inner_nav > ul > li > a:hover::after {
     background-color: #fff;
     margin-left: 0;
     width: 100%;
     left: 0;
  }
  
- .header .inner-nav > ul > li > a::after,
- .header.header-sm .inner-nav > ul > li > a::after {
+ .header .inner_nav > ul > li > a::after,
+ .header.header_sm .inner_nav > ul > li > a::after {
     display: none;
  }
  
- .header .extra-nav > ul > li > a:hover,
- .header .extra-nav > ul > li > a.active,
- .header .inner-nav > ul > li > a:hover,
- .header .inner-nav > ul > li > a.active,
- .header.header-sm .extra-nav > ul > li > a:hover,
- .header.header-sm .extra-nav > ul > li > a.active,
- .header.header-sm .inner-nav > ul > li > a:hover,
- .header.header-sm .inner-nav > ul > li > a.active {
+ .header .extra_nav > ul > li > a:hover,
+ .header .extra_nav > ul > li > a.active,
+ .header .inner_nav > ul > li > a:hover,
+ .header .inner_nav > ul > li > a.active,
+ .header.header_sm .extra_nav > ul > li > a:hover,
+ .header.header_sm .extra_nav > ul > li > a.active,
+ .header.header_sm .inner_nav > ul > li > a:hover,
+ .header.header_sm .inner_nav > ul > li > a.active {
     color: rgba(34, 34, 34, .65);
  }
  
- .header .extra-nav > ul > li > a:hover,
- .header .extra-nav > ul > li > a.active,
- .header .inner-nav > ul > li > a:hover,
- .header .inner-nav > ul > li > a.active,
- .header.header-tp .extra-nav > ul > li > a:hover,
- .header.header-tp .extra-nav > ul > li > a.active,
- .header.header-tp .inner-nav > ul > li > a:hover,
- .header.header-tp .inner-nav > ul > li > a.active {
+ .header .extra_nav > ul > li > a:hover,
+ .header .extra_nav > ul > li > a.active,
+ .header .inner_nav > ul > li > a:hover,
+ .header .inner_nav > ul > li > a.active,
+ .header.header_tp .extra_nav > ul > li > a:hover,
+ .header.header_tp .extra_nav > ul > li > a.active,
+ .header.header_tp .inner_nav > ul > li > a:hover,
+ .header.header_tp .inner_nav > ul > li > a.active {
     color: rgba(255, 255, 255, .7);
  }
  
  /* Header Extra Nav */
- .extra-nav {
+ .extra_nav {
     padding-left: 10px;
     position: relative;
     float: right;
     text-align: right;
  }
  
- .extra-nav > ul {
+ .extra_nav > ul {
     height: 100%;
  }
  
- .header.header-tp .extra-nav > ul > li:first-child {
+ .header.header_tp .extra_nav > ul > li:first-child {
     border-color: rgba(255, 255, 255, .1);
  }
  
- .header .extra-nav > ul > li:first-child,
- .header.header-sm .extra-nav > ul > li:first-child {
+ .header .extra_nav > ul > li:first-child,
+ .header.header_sm .extra_nav > ul > li:first-child {
     border-color: rgba(240, 240, 240, .8);
  }
  
- .extra-nav > ul > li:first-child {
+ .extra_nav > ul > li:first-child {
     border-left: 1px solid;
     padding: 0 0 0 15px;
  }
  
- .extra-nav > ul > li:last-child {
+ .extra_nav > ul > li:last-child {
     padding-right: 0 !important;
  }
  
- .extra-nav > ul > li {
+ .extra_nav > ul > li {
     position: relative;
     display: block;
     height: 100%;
@@ -208,15 +208,15 @@
     transition: padding .3s ease-out;
  }
  
- .nav-toggle {
+ .nav_toggle {
     display: block;
  }
  
- .extra-nav > ul > li:last-child > a {
+ .extra_nav > ul > li:last-child > a {
     padding-right: 0 !important;
  }
  
- .extra-nav > ul > li > a {
+ .extra_nav > ul > li > a {
     position: relative;
     display: block;
     height: 100%;
