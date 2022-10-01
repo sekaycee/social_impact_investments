@@ -1,11 +1,11 @@
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/header.module.css'
 
 export default function Header() {
     return (
         <header id="top" class="header header-tp">
-            <div className={styles.container}>
-                <div class="inner-header">
+            <div class="container-fluid">
+                <div className={styles.inner-header}>
                     <Link class="inner-brand" href="/">Social Impact</Link>
                 </div>
 
