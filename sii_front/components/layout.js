@@ -13,9 +13,9 @@ export default function Layout({ children }) {
                 <meta name="author" content="Kay Cee" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Header></Header>
+            <Header />
             <main>{children}</main>
-            <Footer></Footer>
+            <Footer />
         </>
     )
 }
