@@ -1,17 +1,16 @@
 import Link from 'next/link'
 import hs from '../../styles/header.module.css'
-import bs from 'bootstrap/dist/css/bootstrap.css'
 
 export default function Header() {
     return (
-        <header id="top" className={[hs.header, hs.header_tp]}>
-            <div className={hs.container_fluid}>
+        <header id="top" className={`${hs.header} ${hs.header_tp}`}>
+            <div className={`${hs.container_fluid} container-fluid`}>
                 <div className={hs.inner_header}>
                     <Link className={hs.inner_brand} href="/">Social Impact</Link>
                 </div>
 
-                <div className={[hs.inner_navigation, bs.collapse]}>
-                    <div className={[hs.inner_nav, hs.onepage_nav]}>
+                <div className={`${hs.inner_navigation} collapse`}>
+                    <div className={`${hs.inner_nav} ${hs.onepage_nav}`}>
                         <ul>
                             <li>
                             <Link href="#">
