@@ -3,13 +3,13 @@
     background-color: #222;
  }
  
- .footer a, .footer .social-icons > li > a {
+ .footer a, .footer .social_icons > li > a {
     color: #cecece;
  }
  
  .footer a:hover, .footer a:focus, 
- .footer .social-icons > li > a:hover,
- .footer .social-icons > li > a:focus {
+ .footer .social_icons > li > a:hover,
+ .footer .social_icons > li > a:focus {
     color: #f4f4f4;
  }
  
@@ -45,18 +45,18 @@
  }
  
  /* Footer Social Icons */
- .social-icons {
+ .social_icons {
     list-style: none;
     padding: 0;
     margin: 0;
  }
  
- .social-icons > li {
+ .social_icons > li {
     display: inline-block;
     margin: 0 20px 0 0;
  }
  
- .social-icons > li > a {
+ .social_icons > li > a {
     font-size: .8125rem;
     color: #222;
  }

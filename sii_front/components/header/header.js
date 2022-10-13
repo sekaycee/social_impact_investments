@@ -9,33 +9,33 @@ export default function Header() {
                     <Link className={hs.inner_brand} href="/">Social Impact</Link>
                 </div>
 
-                <div className={`${hs.inner_navigation} collapse`}>
+                <div className={`${hs.inner_navigation} ${hs.collapse}`}>
                     <div className={`${hs.inner_nav} ${hs.onepage_nav}`}>
                         <ul>
                             <li>
-                            <Link href="#">
-                                <span className={hs.menu_item_span}>About</span>
-                            </Link>
+                                <Link href="#">
+                                    <span className={hs.menu_item_span}>About</span>
+                                </Link>
                             </li>
                             <li>
-                            <Link href="#">
-                                <span className={hs.menu_item_span}>Investments</span>
-                            </Link>
+                                <Link href="#">
+                                    <span className={hs.menu_item_span}>Investments</span>
+                                </Link>
                             </li>
                             <li>
-                            <Link href="#">
-                                <span className={hs.menu_item_span}>Impact</span>
-                            </Link>
+                                <Link href="#">
+                                    <span className={hs.menu_item_span}>Impact</span>
+                                </Link>
                             </li>
                             <li>
-                            <Link href="/insights/home">
-                                <span className={hs.menu_item_span}>Insights</span>
-                            </Link>
+                                <Link href="/insights/home">
+                                    <span className={hs.menu_item_span}>Insights</span>
+                                </Link>
                             </li>
                             <li>
-                            <Link href="#">
-                                <span className={hs.menu_item_span}>Contact</span>
-                            </Link>
+                                <Link href="#">
+                                    <span className={hs.menu_item_span}>Contact</span>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -43,9 +43,9 @@ export default function Header() {
 
                 <div className={hs.extra_nav}>
                     <ul>
-                        <li className="nav-toggle">
-                            <Link href="#" data-toggle="collapse" data-target=".inner-navigation">
-                            <span className={hs.menu_item_span}><i className="bi-list"></i></span>
+                        <li className={hs.nav_toggle}>
+                            <Link href="#" data-toggle="collapse" data-target=".inner_navigation">
+                                <span className={hs.menu_item_span}><i className="bi-list"></i></span>
                             </Link>
                         </li>
                     </ul>

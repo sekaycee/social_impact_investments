@@ -4,12 +4,12 @@ export default function Footer() {
     return (
         <footer className={fs.footer}>
             <div className={fs.footer_widgets}>
-                <div className="container">
+                <div className={`${fs.container} container`}>
                     <div className="row">
                         <div className="col-md-3">
-                            <aside className={[fs.widget, fs.widget_text]}>
+                            <aside className={`${fs.widget} ${fs.widget_text}`}>
                                 <div className={fs.widget_title}><h6>About Us</h6></div>
-                                <div className={fs.textwidget}>
+                                <div className={fs.text_widget}>
                                     <p>
                                         We are a high-performing investor in growth markets with unique operational expertise to identify overlooked opportunities <br />
                                     </p>
@@ -18,7 +18,7 @@ export default function Footer() {
                                         Email: contact@siinvest.com <br />
                                         Phone: **** **** *** <br />
                                     </p>
-                                    <ul className="social-icons">
+                                    <ul className={fs.social_icons}>
                                         <li><a href="#"><i className="bi-twitter"></i></a></li>
                                         <li><a href="#"><i className="bi-instagram"></i></a></li>
                                         <li><a href="#"><i className="bi-facebook"></i></a></li>
@@ -28,20 +28,20 @@ export default function Footer() {
                             </aside>
                         </div>
                         <div className="col-md-3">
-                            <aside className="widget widget-insights">
-                                <div className="widget-title"><h6>Recent Insights</h6></div>
-                                <div className="insightwidget"></div>
+                            <aside className={`${fs.widget} ${fs.widget_insights}`}>
+                                <div className={fs.widget_title}><h6>Recent Insights</h6></div>
+                                <div className={fs.insight_widget}></div>
                             </aside>
                         </div>
                         <div className="col-md-3">
-                            <aside className="widget widget-twitter">
-                                <div className="widget-title"><h6>Twitter Feed</h6></div>
+                            <aside className={`${fs.widget} ${fs.widget_twitter}`}>
+                                <div className={fs.widget_titl}><h6>Twitter Feed</h6></div>
                                 <div></div>
                             </aside>
                         </div>
                         <div className="col-md-3">
-                            <aside className="widget widget-impact">
-                                <div className="widget-title"><h6>Impact</h6></div>
+                            <aside className={`${fs.widget} ${fs.widget_impact}`}>
+                                <div className={fs.widget_title}><h6>Impact</h6></div>
                                 <div></div>
                             </aside>
                         </div>
@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={fs.footer_bar}>
-                <div className="container">
+                <div className={`${fs.container} container`}>
                     <div className="row">
                         <div className="col-md-12">
                             <div className={fs.copyright}>

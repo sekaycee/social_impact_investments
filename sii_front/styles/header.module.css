@@ -227,3 +227,13 @@
 	font-weight: 600;
 	font-size: 1.0625rem;
 }
+
+@media (min-width: 992px) {
+	.inner_navigation.collapse {
+	   display: block;
+	}
+ 
+	.nav_toggle {
+	   display: none !important;
+	}
+ }
