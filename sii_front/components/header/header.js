@@ -6,7 +6,7 @@ export default function Header() {
         <header id="top" className={`${hs.header} ${hs.header_tp}`}>
             <div className={`${hs.container_fluid} container-fluid`}>
                 <div className={hs.inner_header}>
-                    <Link className={hs.inner_brand} href="/">Social Impact</Link>
+                    <Link href="/"><a className={hs.inner_brand}>Social Impact Investments</a></Link>
                 </div>
 
                 <div className={`${hs.inner_navigation} ${hs.collapse}`}>
@@ -14,27 +14,27 @@ export default function Header() {
                         <ul>
                             <li>
                                 <Link href="#">
-                                    <span className={hs.menu_item_span}>About</span>
+                                    <a><span className={hs.menu_item_span}>About</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <span className={hs.menu_item_span}>Investments</span>
+                                    <a><span className={hs.menu_item_span}>Investments</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <span className={hs.menu_item_span}>Impact</span>
+                                    <a><span className={hs.menu_item_span}>Impact</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/insights/home">
-                                    <span className={hs.menu_item_span}>Insights</span>
+                                    <a><span className={hs.menu_item_span}>Insights</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <span className={hs.menu_item_span}>Contact</span>
+                                    <a><span className={hs.menu_item_span}>Contact</span></a>
                                 </Link>
                             </li>
                         </ul>
@@ -43,9 +43,18 @@ export default function Header() {
 
                 <div className={hs.extra_nav}>
                     <ul>
+                        <li>
+                            <Link href="#">
+                                <a className={hs.off_canvas_open}>
+                                    <span className={hs.menu_item_span}><i class="bi-list"></i></span>
+                                </a>
+                            </Link>
+                        </li>
                         <li className={hs.nav_toggle}>
-                            <Link href="#" data-toggle="collapse" data-target=".inner_navigation">
-                                <span className={hs.menu_item_span}><i className="bi-list"></i></span>
+                            <Link href="#">
+                                <a data-toggle="collapse" data-target=".inner_navigation">
+                                    <span className={hs.menu_item_span}><i className="bi-list"></i></span>
+                                </a>
                             </Link>
                         </li>
                     </ul>

@@ -1,77 +1,77 @@
 /* Footer */
 .footer {
-    background-color: #222;
- }
- 
- .footer a, .footer .social_icons > li > a {
-    color: #cecece;
- }
- 
- .footer a:hover, .footer a:focus, 
- .footer .social_icons > li > a:hover,
- .footer .social_icons > li > a:focus {
-    color: #f4f4f4;
- }
- 
- .footer_widgets {
-    padding: 90px 0 30px;
- }
- 
- /* Footer Widget */
- .widget {
-    margin-bottom: 60px;
-    font-size: .8125rem;
- }
- 
- .widget a {
-    color: #788487;
- }
- 
- .widget .widget_title {
-    margin-bottom: 24px;
-    color: #f7f7f7;
- }
- 
- .widget .widget_title > h6 {
-    text-transform: uppercase;
-    letter-spacing: 2.6px;
-    font-weight: 700;
-    font-size: .6875rem;
-    margin: 0;
- }
- 
- .widget ul {
-    margin-bottom: 0;
- }
- 
- /* Footer Social Icons */
- .social_icons {
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
- 
- .social_icons > li {
-    display: inline-block;
-    margin: 0 20px 0 0;
- }
- 
- .social_icons > li > a {
-    font-size: .8125rem;
-    color: #222;
- }
- 
- /* Footer bar */
- .footer_widgets + .footer_bar {
-    border-top: 1px solid #2c2c2c;
- }
- 
- .footer_bar {
-    text-align: center;
-    font-size: .75rem;
-    padding: 22px 0;
- }
- 
- .footer_bar p {
-    margin-bottom: 0;
- }
+	background-color: #222;
+}
+
+.footer a, .footer .social_icons > li > a {
+	color: #cecece;
+}
+
+.footer a:hover, .footer a:focus, 
+.footer .social_icons > li > a:hover,
+.footer .social_icons > li > a:focus {
+	color: #f4f4f4;
+}
+
+.footer_widgets {
+	padding: 90px 0 30px;
+}
+
+/* Footer Widget */
+.widget {
+	margin-bottom: 60px;
+	font-size: .8125rem;
+}
+
+.widget a {
+	color: #788487;
+}
+
+.widget .widget_title {
+	margin-bottom: 24px;
+	color: #f7f7f7;
+}
+
+.widget .widget_title > h6 {
+	text-transform: uppercase;
+	letter-spacing: 2.6px;
+	font-weight: 700;
+	font-size: .6875rem;
+	margin: 0;
+}
+
+.widget ul {
+	margin-bottom: 0;
+}
+
+/* Footer Social Icons */
+.social_icons {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social_icons > li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+
+.social_icons > li > a {
+	font-size: .8125rem;
+	color: #222;
+}
+
+/* Footer bar */
+.footer_widgets + .footer_bar {
+	border-top: 1px solid #2c2c2c;
+}
+
+.footer_bar {
+	text-align: center;
+	font-size: .75rem;
+	padding: 22px 0;
+}
+
+.footer_bar p {
+	margin-bottom: 0;
+}

@@ -51,7 +51,7 @@
 }
 
 .inner_brand {
-	display: inline-block;
+	/* display: inline-block; */
 	vertical-align: middle;
 	text-transform: none;
 	letter-spacing: 0;

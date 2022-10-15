@@ -5,7 +5,7 @@ export default function Home() {
 		<>
 			<section className={`${hm.module_cover} ${hm.parallax} ${hm.fullscreen} text-center`}>
 				<div className={`${hm.container} container`}>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-md-12">
 							<h1 className="m-b-20">
 								<strong>
@@ -28,7 +28,7 @@ export default function Home() {
 			</section>
 			<section className={`${hm.module} ${hm.divider_bottom}`}>
 				<div className={`${hm.container} container`}>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-md-6 m-auto text-center">
 							<h1>Your Challenge, Our Opportunity.</h1>
 							<p className={hm.lead}>
@@ -38,18 +38,18 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="row">
+				<div className={`${hm.row} row`}>
 					<div className="col-md-12">
 						<div className={hm.space_lg}></div>
 					</div>
 				</div>
-				<div className="row"></div>
-				<div className="row">
+				<div className={`${hm.row} row`}></div>
+				<div className={`${hm.row} row`}>
 					<div className="col-md-12">
 						<div className={hm.space_sm}></div>
 					</div>
 				</div>
-				<div className="row">
+				<div className={`${hm.row} row`}>
 					<div className="col-lg-3 col-md-6">
 						<div className={`${hm.icon_box} text-center`}>
 							<div className={hm.icon_box_icon}>
@@ -126,8 +126,8 @@ export default function Home() {
 			</section>
 			<section></section>
 			<section className={hm.module}>
-				<div className={`${hm.containers} container`}>
-					<div className="row">
+				<div className={`${hm.container} container`}>
+					<div className={`${hm.row} row`}>
 						<div className="col-md-6 m-auto text-center">
 							<h1>Latest insights.</h1>
 							<p className={hm.lead}>
@@ -135,12 +135,12 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-md-12">
 							<div className={hm.space_lg}></div>
 						</div>
 					</div>
-					<div className={`row ${hm.insights_masonry}`}>
+					<div className={`row ${hm.row} ${hm.insights_masonry}`}>
 						<div className={`col-md-4 ${hm.insight_item}`}>
 							<article className={hm.insight}>
 								<div className={hm.insight_preview}>
@@ -214,7 +214,7 @@ export default function Home() {
 			</section>
 			<section className={`${hm.module} divider-top`}>
 				<div className={`${hm.container} container`}>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-lg-6 col-md-9 m-auto text-center">
 							<h1>Get in touch.</h1>
 							<p className={hm.lead}>
@@ -222,12 +222,12 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-md-12">
 							<div className={hm.space_lg}></div>
 						</div>
 					</div>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-md-8 m-auto">
 							<form id="contact-form" method="post" novalidate>
 								<div className="row">
@@ -268,7 +268,7 @@ export default function Home() {
 			</section>
 			<section className={`${hm.module} bg-gray p-b-0`}>
 				<div className={`${hm.container} container text-center`}>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-md-3">
 							<div className={hm.counter}>
 								<div className={hm.counter_icon}></div>
@@ -302,7 +302,7 @@ export default function Home() {
 			</section>
 			<section className={`${hm.module} ${hm.no_gutters} p-0`}>
 				<div className={`${hm.container_fluid} container-fluid`}>
-					<div className="row">
+					<div className={`${hm.row} row`}>
 						<div className="col-md-12">
 							<img src="images/module-18.jpg" />
 						</div>
