@@ -234,33 +234,33 @@ export default function Home() {
 					<div className={`${hm.row} row`}>
 						<div className="col-md-8 m-auto">
 							<form id="contact-form" method="post" novalidate>
-								<div className="row">
+								<div className={`${hm.row} row`}>
 									<div className="col-md-6">
-										<div className="form-group">
-											<input className="form-control" type="text" name="name" placeholder="Name" required />
+										<div className={hm.form_group}>
+											<input className={`${hm.form_control} form-control`} type="text" name="name" placeholder="Name" required />
 											<p className="help-block text-danger"></p>
 										</div>
 									</div>
 									<div className="col-md-6">
-										<div className="form-group">
-											<input className="form-control" type="email" name="email" placeholder="E-mail" required />
+										<div className={hm.form_group}>
+											<input className={`${hm.form_control} form-control`} type="email" name="email" placeholder="E-mail" required />
 											<p className="help-block text-danger"></p>
 										</div>
 									</div>
 									<div className="col-md-12">
-										<div className="form-group">
-											<input className="form-control" type="text" name="subject" placeholder="Subject" required />
+										<div className={hm.form_group}>
+											<input className={`${hm.form_control} form-control`} type="text" name="subject" placeholder="Subject" required />
 											<p className="help-block text-danger"></p>
 										</div>
 									</div>
 									<div className="col-md-12">
-										<div className="form-group">
-											<textarea className="form-control" name="message" placeholder="Message" rows="12" required></textarea>
+										<div className={hm.form_group}>
+											<textarea className={`${hm.form_control} form-control`} name="message" placeholder="Message" rows="12" required></textarea>
 										</div>
 									</div>
 									<div className="col-md-12">
 										<p>
-											<input className="btn btn-block btn-brand" type="submit" value="Send Message" />
+											<input className={`${hm.btn} ${hm.btn_block} ${hm.btn_brand} btn btn-block btn-brand`} type="submit" value="Send Message" />
 										</p>
 									</div>
 								</div>

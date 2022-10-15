@@ -22,10 +22,11 @@ p:last-child {
 }
 
 a {
-	transition: all .3s ease-in-out;
+	cursor: pointer;
 	color: #505cfd;
-	text-decoration: none !important;
 	background-color: transparent;
+	transition: all .3s ease-in-out;
+	text-decoration: none !important;
 }
 
 ul, ol {

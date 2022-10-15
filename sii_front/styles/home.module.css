@@ -138,3 +138,45 @@
 	padding-left: 0;
 	padding-right: 0;
 }
+
+/* Contact */
+.form_group {
+	margin-bottom: 1rem;
+}
+
+.form_control {
+	border-width: 1px;
+	padding: 1.0625rem .875rem;
+	font-size: .75rem;
+}
+
+.btn {
+	line-height: 1.5;
+	font-size: .75rem;
+	padding: 1rem 1.875rem;
+	border-radius: .1875rem;
+	letter-spacing: .1125rem;
+	text-transform: uppercase;
+	border: 2px solid transparent;
+}
+
+.btn:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+
+.btn_block {
+	width: 100%;
+	display: block;
+}
+
+.btn_brand {
+	color: #fff;
+	background-color: #505cfd;
+	border-color: #505cfd;
+}
+
+.btn_brand:hover {
+	color: #fff !important;
+	background-color: #2a39fd !important;
+	border-color: #2a39fd !important;
+}
