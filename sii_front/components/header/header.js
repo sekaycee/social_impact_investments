@@ -1,12 +1,29 @@
 import Link from 'next/link'
+import { useEffect } from 'react'
 import hs from '../../styles/header.module.css'
 
 export default function Header() {
+    useEffect(() => {
+        window.onscroll = function() {handleScroll()}
+    })
+
+    const handleScroll = () => {
+        const el = document.getElementById("top")
+
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            el.classList.remove(hs.header_tp)
+            el.classList.add(hs.header_sm)
+        } else {
+            el.classList.add(hs.header_tp)
+            el.classList.remove(hs.header_sm)
+        }
+    }
+
     return (
         <header id="top" className={`${hs.header} ${hs.header_tp}`}>
             <div className={`${hs.container_fluid} container-fluid`}>
                 <div className={hs.inner_header}>
-                    <Link href="/"><a className={hs.inner_brand}>Social Impact Investments</a></Link>
+                    <Link href="/"><a className={hs.inner_brand}>SII Africa</a></Link>
                 </div>
 
                 <div className={`${hs.inner_navigation} ${hs.collapse}`}>

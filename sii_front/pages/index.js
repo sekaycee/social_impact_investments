@@ -37,88 +37,92 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-				</div>
-				<div className={`${hm.row} row`}>
-					<div className="col-md-12">
-						<div className={hm.space_lg}></div>
-					</div>
-				</div>
-				<div className={`${hm.row} row`}></div>
-				<div className={`${hm.row} row`}>
-					<div className="col-md-12">
-						<div className={hm.space_sm}></div>
-					</div>
-				</div>
-				<div className={`${hm.row} row`}>
-					<div className="col-lg-3 col-md-6">
-						<div className={`${hm.icon_box} text-center`}>
-							<div className={hm.icon_box_icon}>
-								<span className=""></span>
-							</div>
-							<div className={hm.icon_box_title}>
-								<h6>Food</h6>
-							</div>
-							<div className={hm.icon_box_content}>
-								<p>
-								Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
-								</p>
-							</div>
-							<div className={hm.icon_box_link}>
-								<a href="#">Read more</a>
-							</div>
+					<div className={`${hm.row} row`}>
+						<div className="col-md-12">
+							<div className={hm.space_lg}></div>
 						</div>
 					</div>
-					<div className="col-lg-3 col-md-6">
-						<div className={`${hm.icon_box} text-center`}>
-							<div className={hm.icon_box_icon}>
-								<span className=""></span>
+					<div className={`${hm.row} row`}>
+						<p>
+							<img src='/images/farm_mod.jpg' />
+						</p>
+					</div>
+					<div className={`${hm.row} row`}>
+						<div className="col-md-12">
+							<div className={hm.space_sm}></div>
+						</div>
+					</div>
+					<div className={`${hm.row} row`}>
+						<div className="col-lg-3 col-md-6">
+							<div className={`${hm.icon_box} text-center`}>
+								<div className={hm.icon_box_icon}>
+									<span className=""></span>
+								</div>
+								<div className={hm.icon_box_title}>
+									<h6>Food</h6>
+								</div>
+								<div className={hm.icon_box_content}>
+									<p>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
+									</p>
+								</div>
+								<div className={hm.icon_box_link}>
+									<a href="#">Read more</a>
+								</div>
 							</div>
-							<div className={hm.icon_box_title}>
-								<h6>Water</h6>
+						</div>
+						<div className="col-lg-3 col-md-6">
+							<div className={`${hm.icon_box} text-center`}>
+								<div className={hm.icon_box_icon}>
+									<span className=""></span>
+								</div>
+								<div className={hm.icon_box_title}>
+									<h6>Water</h6>
+								</div>
+								<div className={hm.icon_box_content}>
+									<p>
+										Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
+									</p>
+								</div>
+								<div className={hm.icon_box_link}>
+									<a href="#">Read more</a>
+								</div>
 							</div>
-							<div className={hm.icon_box_content}>
-								<p>
+						</div>
+						<div className="col-lg-3 col-md-6">
+							<div className={`${hm.icon_box} text-center`}>
+								<div className={hm.icon_box_icon}>
+									<span className=""></span>
+								</div>
+								<div className={hm.icon_box_title}>
+									<h6>Healthcare</h6>
+								</div>
+								<div className={hm.icon_box_content}>
+									<p>
 									Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
-								</p>
-							</div>
-							<div className={hm.icon_box_link}>
-								<a href="#">Read more</a>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-3 col-md-6">
-						<div className={`${hm.icon_box} text-center`}>
-							<div className={hm.icon_box_icon}>
-								<span className=""></span>
-							</div>
-							<div className={hm.icon_box_title}>
-								<h6>Healthcare</h6>
-							</div>
-							<div className={hm.icon_box_content}>
-								<p>
-								Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
-								</p>
-							</div>
-							<div className={hm.icon_box_link}>
-								<a href="#">Read more</a>
+									</p>
+								</div>
+								<div className={hm.icon_box_link}>
+									<a href="#">Read more</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div className="col-lg-3 col-md-6">
-						<div className={`${hm.icon_box} text-center`}>
-							<div className={hm.icon_box_icon}>
-								<span className=""></span>
-							</div>
-							<div className={hm.icon_box_title}>
-								<h6>Infrastructure</h6>
-							</div>
-							<div className={hm.icon_box_content}>
-								<p>
-								Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
-								</p>
-							</div>
-							<div className={hm.icon_box_link}>
-								<a href="#">Read more</a>
+						<div className="col-lg-3 col-md-6">
+							<div className={`${hm.icon_box} text-center`}>
+								<div className={hm.icon_box_icon}>
+									<span className=""></span>
+								</div>
+								<div className={hm.icon_box_title}>
+									<h6>Infrastructure</h6>
+								</div>
+								<div className={hm.icon_box_content}>
+									<p>
+									Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
+									</p>
+								</div>
+								<div className={hm.icon_box_link}>
+									<a href="#">Read more</a>
+								</div>
 							</div>
 						</div>
 					</div>

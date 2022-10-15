@@ -35,7 +35,7 @@ export default function Footer() {
                         </div>
                         <div className="col-md-3">
                             <aside className={`${fs.widget} ${fs.widget_twitter}`}>
-                                <div className={fs.widget_titl}><h6>Twitter Feed</h6></div>
+                                <div className={fs.widget_title}><h6>Twitter Feed</h6></div>
                                 <div></div>
                             </aside>
                         </div>
