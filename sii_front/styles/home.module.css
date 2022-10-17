@@ -180,3 +180,10 @@
 	background-color: #2a39fd !important;
 	border-color: #2a39fd !important;
 }
+
+/* Counter */
+.counter_number {
+	color: #222;
+	font-weight: 600;
+	font-size: 3.125rem;
+}
