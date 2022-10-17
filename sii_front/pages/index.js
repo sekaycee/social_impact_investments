@@ -222,7 +222,7 @@ export default function Home() {
 						<div className="col-lg-6 col-md-9 m-auto text-center">
 							<h1>Get in touch.</h1>
 							<p className={hm.lead}>
-								Looking to partner with us, or learn more about what we do. Don't hesitate to reach out.
+								Looking to partner with us, or learn more about what we do. Don&apos;t hesitate to reach out.
 							</p>
 						</div>
 					</div>
