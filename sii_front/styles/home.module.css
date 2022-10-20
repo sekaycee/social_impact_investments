@@ -95,10 +95,15 @@
 	padding: 20px 0;
 }
 
+.icon_box .icon_box_icon span {
+	color: #505cfd;
+	font-size: 2.375rem;
+}
+
 .icon_box .icon_box_title h6 {
 	margin: 0 0 12px;
 	font-weight: 500;
-	font-size: .875rem;
+	font-size: 1rem;
 }
 
 .icon_box .icon_box_link {

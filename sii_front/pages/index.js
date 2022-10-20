@@ -56,14 +56,15 @@ export default function Home() {
 						<div className="col-lg-3 col-md-6">
 							<div className={`${hm.icon_box} text-center`}>
 								<div className={hm.icon_box_icon}>
-									<span className=""></span>
+									<span className="bi-egg"></span>
 								</div>
 								<div className={hm.icon_box_title}>
 									<h6>Food</h6>
 								</div>
 								<div className={hm.icon_box_content}>
 									<p>
-										Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
+									Increased availability and affordability of basic nutrition and 
+									increased income of farmers leads to improved health and financial resilience.
 									</p>
 								</div>
 								<div className={hm.icon_box_link}>
@@ -74,14 +75,15 @@ export default function Home() {
 						<div className="col-lg-3 col-md-6">
 							<div className={`${hm.icon_box} text-center`}>
 								<div className={hm.icon_box_icon}>
-									<span className=""></span>
+									<span className="bi-water"></span>
 								</div>
 								<div className={hm.icon_box_title}>
 									<h6>Water</h6>
 								</div>
 								<div className={hm.icon_box_content}>
 									<p>
-										Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
+										Increased access to clean water and building wastewater solutions improves 
+										personal and social wellbeing and reduces environmental impact.
 									</p>
 								</div>
 								<div className={hm.icon_box_link}>
@@ -92,14 +94,15 @@ export default function Home() {
 						<div className="col-lg-3 col-md-6">
 							<div className={`${hm.icon_box} text-center`}>
 								<div className={hm.icon_box_icon}>
-									<span className=""></span>
+									<span className="bi-bandaid"></span>
 								</div>
 								<div className={hm.icon_box_title}>
 									<h6>Healthcare</h6>
 								</div>
 								<div className={hm.icon_box_content}>
 									<p>
-									Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
+										Making healthcare more accessible and affordable leads to improved health 
+										for more people and save lives. Increased access to medical diagnostics.
 									</p>
 								</div>
 								<div className={hm.icon_box_link}>
@@ -110,14 +113,15 @@ export default function Home() {
 						<div className="col-lg-3 col-md-6">
 							<div className={`${hm.icon_box} text-center`}>
 								<div className={hm.icon_box_icon}>
-									<span className=""></span>
+									<span className="bi-briefcase"></span>
 								</div>
 								<div className={hm.icon_box_title}>
 									<h6>Infrastructure</h6>
 								</div>
 								<div className={hm.icon_box_content}>
 									<p>
-									Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.
+									Sustainable businesses and infrastructure are fundamental for economic growth and societal stability.
+									With the added benefit of providing low risk, high returns opportunities.
 									</p>
 								</div>
 								<div className={hm.icon_box_link}>
@@ -155,7 +159,7 @@ export default function Home() {
 								<div className={hm.insight_wrapper}>
 									<div className={hm.insight_header}>
 										<h2 className={hm.insight_title}>
-											<a href="#">First Insight</a>
+											<a href="#">Partnership with Pearlz POS Hub</a>
 										</h2>
 									</div>
 									<div className={hm.insight_content}>
@@ -178,7 +182,7 @@ export default function Home() {
 							<div className={hm.insight_wrapper}>
 								<div className={hm.insight_header}>
 									<h2 className={hm.insight_title}>
-										<a href="#">Second Insight</a>
+										<a href="#">Partnership with Victor's Laundry House</a>
 									</h2>
 								</div>
 								<div className={hm.insight_content}>
