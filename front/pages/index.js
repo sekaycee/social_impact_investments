@@ -1,4 +1,10 @@
 import hm from '../styles/home.module.css'
+import Image from 'next/image'
+import one from '../public/images/1.jpg'
+import five from '../public/images/5.jpg'
+import three from '../public/images/3.jpg'
+import mod from '../public/images/module-18.jpg'
+import servimg from '../public/images/farm_mod.jpg'
 
 export default function Home() {
 	return (
@@ -44,7 +50,7 @@ export default function Home() {
 					</div>
 					<div className={`${hm.row} row`}>
 						<p>
-							<img src='/images/farm_mod.jpg' />
+							<Image src={servimg} alt />
 						</p>
 					</div>
 					<div className={`${hm.row} row`}>
@@ -153,7 +159,7 @@ export default function Home() {
 							<article className={hm.insight}>
 								<div className={hm.insight_preview}>
 									<a href="#">
-										<img src="images/1.jpg" />
+										<Image src={one} alt />
 									</a>
 								</div>
 								<div className={hm.insight_wrapper}>
@@ -176,13 +182,13 @@ export default function Home() {
 						<div className={`col-md-4 ${hm.insight}`}>
 							<div className={hm.insight_preview}>
 								<a href="#">
-									<img src="images/3.jpg" />
+									<Image src={three} alt />
 								</a>
 							</div>
 							<div className={hm.insight_wrapper}>
 								<div className={hm.insight_header}>
 									<h2 className={hm.insight_title}>
-										<a href="#">Partnership with Victor's Laundry House</a>
+										<a href="#">Partnership with Victor&apos;s Laundry House</a>
 									</h2>
 								</div>
 								<div className={hm.insight_content}>
@@ -198,7 +204,7 @@ export default function Home() {
 						<div className={`col-md-4 ${hm.insight}`}>
 							<div className={hm.insight_preview}>
 								<a href="#">
-									<img src="images/5.jpg" />
+									<Image src={five} alt />
 								</a>
 							</div>
 							<div className={hm.insight_wrapper}>
@@ -312,7 +318,7 @@ export default function Home() {
 				<div className={`${hm.container_fluid} container-fluid`}>
 					<div className={`${hm.row} row`}>
 						<div className="col-md-12">
-							<img src="images/module-18.jpg" />
+							<Image src={mod} alt />
 						</div>
 					</div>
 				</div>

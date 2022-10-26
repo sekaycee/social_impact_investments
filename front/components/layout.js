@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script'
 import Footer from './footer/footer'
 import Header from './header/header'
 

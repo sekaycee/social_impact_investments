@@ -7,6 +7,10 @@ export default function Header() {
         window.onscroll = function() {handleScroll()}
     })
 
+    const toggleNav = () => {
+        const el = document.getElementById("top")
+    }
+
     const handleScroll = () => {
         const el = document.getElementById("top")
 
@@ -62,14 +66,14 @@ export default function Header() {
                     <ul>
                         <li>
                             <Link href="#">
-                                <a className={hs.off_canvas_open}>
+                                <a className={hs.off_canvas_open} onClick={toggleNav}>
                                     <span className={hs.menu_item_span}><i class="bi-list"></i></span>
                                 </a>
                             </Link>
                         </li>
                         <li className={hs.nav_toggle}>
                             <Link href="#">
-                                <a data-toggle="collapse" data-target=".inner_navigation">
+                                <a data-toggle="collapse" data-target=".inner_navigation" onClick={toggleNav}>
                                     <span className={hs.menu_item_span}><i className="bi-list"></i></span>
                                 </a>
                             </Link>
