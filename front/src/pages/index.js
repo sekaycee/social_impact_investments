@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { images } from '../constants/index'
 import hm from './home.module.css'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Home · Social Impact Investment</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>
 			<section className={`${hm.module_cover} ${hm.parallax} ${hm.fullscreen} text-center`}>
 				<div className={`${hm.container} container`}>
@@ -49,7 +51,7 @@ export default function Home() {
 					</div>
 					<div className={`${hm.row} row`}>
 						<p>
-							<Image src={servimg} alt />
+							<Image src={images.farm} alt />
 						</p>
 					</div>
 					<div className={`${hm.row} row`}>
@@ -158,7 +160,7 @@ export default function Home() {
 							<article className={hm.insight}>
 								<div className={hm.insight_preview}>
 									<a href="#">
-										<Image src={one} alt />
+										<Image src={images.one} alt />
 									</a>
 								</div>
 								<div className={hm.insight_wrapper}>
@@ -181,7 +183,7 @@ export default function Home() {
 						<div className={`col-md-4 ${hm.insight}`}>
 							<div className={hm.insight_preview}>
 								<a href="#">
-									<Image src={three} alt />
+									<Image src={images.three} alt />
 								</a>
 							</div>
 							<div className={hm.insight_wrapper}>
@@ -203,7 +205,7 @@ export default function Home() {
 						<div className={`col-md-4 ${hm.insight}`}>
 							<div className={hm.insight_preview}>
 								<a href="#">
-									<Image src={five} alt />
+									<Image src={images.five} alt />
 								</a>
 							</div>
 							<div className={hm.insight_wrapper}>
@@ -317,7 +319,7 @@ export default function Home() {
 				<div className={`${hm.container_fluid} container-fluid`}>
 					<div className={`${hm.row} row`}>
 						<div className="col-md-12">
-							<Image src={mod} alt />
+							<Image src={images.mod} alt />
 						</div>
 					</div>
 				</div>
