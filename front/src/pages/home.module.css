@@ -13,7 +13,7 @@
 }
 
 .module_cover {
-	background-image: url("../public/images/mountains.png");
+	background-image: url("../../public/images/mountains.png");
 	position: relative;
 	padding: 240px 0 240px;
 	z-index: 0;

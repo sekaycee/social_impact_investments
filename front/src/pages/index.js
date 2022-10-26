@@ -1,14 +1,13 @@
-import hm from '../styles/home.module.css'
+import Head from 'next/head'
 import Image from 'next/image'
-import one from '../public/images/1.jpg'
-import five from '../public/images/5.jpg'
-import three from '../public/images/3.jpg'
-import mod from '../public/images/module-18.jpg'
-import servimg from '../public/images/farm_mod.jpg'
+import hm from './home.module.css'
 
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<title>Home · Social Impact Investment</title>
+			</Head>
 			<section className={`${hm.module_cover} ${hm.parallax} ${hm.fullscreen} text-center`}>
 				<div className={`${hm.container} container`}>
 					<div className={`${hm.row} row`}>

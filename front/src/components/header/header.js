@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
-import hs from '../../styles/header.module.css'
+import hs from './header.module.css'
 
 export default function Header() {
     useEffect(() => {
@@ -8,7 +8,7 @@ export default function Header() {
     })
 
     const toggleNav = () => {
-        const el = document.getElementById("top")
+        const el = document.getElementById("nav")
     }
 
     const handleScroll = () => {
