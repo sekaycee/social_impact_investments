@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
-import hs from './header.module.css'
+// import hs from './header.module.css'
 
 export default function Header() {
     useEffect(() => {
@@ -15,66 +15,66 @@ export default function Header() {
         const el = document.getElementById("top")
 
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            el.classList.remove(hs.header_tp)
-            el.classList.add(hs.header_sm)
+            el.classList.remove("header-tp")
+            el.classList.add("header-sm")
         } else {
-            el.classList.add(hs.header_tp)
-            el.classList.remove(hs.header_sm)
+            el.classList.add("header-tp")
+            el.classList.remove("header-sm")
         }
     }
 
     return (
-        <header id="top" className={`${hs.header} ${hs.header_tp}`}>
-            <div className={`${hs.container_fluid} container-fluid`}>
-                <div className={hs.inner_header}>
-                    <Link href="/"><a className={hs.inner_brand}>SII Africa</a></Link>
+        <header id="top" className="header header-tp">
+            <div className="container-fluid">
+                <div className="inner-header">
+                    <Link href="/"><a className="inner-brand">SII Africa</a></Link>
                 </div>
 
-                <div className={`${hs.inner_navigation} ${hs.collapse}`}>
-                    <div className={`${hs.inner_nav} ${hs.onepage_nav}`}>
+                <div className="inner-navigation collapse">
+                    <div className="inner-nav onepage-nav">
                         <ul>
                             <li>
                                 <Link href="#">
-                                    <a><span className={hs.menu_item_span}>About</span></a>
+                                    <a><span className="menu-item-span">About</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <a><span className={hs.menu_item_span}>Investments</span></a>
+                                    <a><span className="menu-item-span">Investments</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <a><span className={hs.menu_item_span}>Impact</span></a>
+                                    <a><span className="menu-item-span">Impact</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/insights/home">
-                                    <a><span className={hs.menu_item_span}>Insights</span></a>
+                                    <a><span className="menu-item-span">Insights</span></a>
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#">
-                                    <a><span className={hs.menu_item_span}>Contact</span></a>
+                                    <a><span className="menu-item-span">Contact</span></a>
                                 </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div className={hs.extra_nav}>
+                <div className="extra-nav">
                     <ul>
                         <li>
                             <Link href="#">
-                                <a className={hs.off_canvas_open} onClick={toggleNav}>
-                                    <span className={hs.menu_item_span}><i class="bi-list"></i></span>
+                                <a className="off-canvas-open" onClick={toggleNav}>
+                                    <span className="menu-item-span"><i class="bi-list"></i></span>
                                 </a>
                             </Link>
                         </li>
-                        <li className={hs.nav_toggle}>
+                        <li className="nav-toggle">
                             <Link href="#">
-                                <a data-toggle="collapse" data-target=".inner_navigation" onClick={toggleNav}>
-                                    <span className={hs.menu_item_span}><i className="bi-list"></i></span>
+                                <a data-toggle="collapse" data-target=".inner-navigation" onClick={toggleNav}>
+                                    <span className="menu-item-span"><i className="bi-list"></i></span>
                                 </a>
                             </Link>
                         </li>
