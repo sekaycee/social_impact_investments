@@ -15,16 +15,16 @@ export default function Header() {
         const el = document.getElementById("top")
 
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            el.classList.remove("header-tp")
-            el.classList.add("header-sm")
+            el.classList.remove("header-transparent")
+            el.classList.add("header-small")
         } else {
-            el.classList.add("header-tp")
-            el.classList.remove("header-sm")
+            el.classList.add("header-transparent")
+            el.classList.remove("header-small")
         }
     }
 
     return (
-        <header id="top" className="header header-tp">
+        <header id="top" className="header header-transparent">
             <div className="container-fluid">
                 <div className="inner-header">
                     <Link href="/"><a className="inner-brand">SII Africa</a></Link>
